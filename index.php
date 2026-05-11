@@ -452,7 +452,7 @@ if($text and $UploadEr["المود"][$from_id] == "twsl") {
             ]);
   }
  
- $domin = "php-app.onrender.com" ; #دومين استضافتك 
+ $domin = "https://php-fqgf.onrender.com" ; #دومين استضافتك 
  if($update->message->document){
     $file_id = "https://api.telegram.org/file/bot".API_KEY."/".bot("getfile",["file_id"=>$update->message->document->file_id])->result->file_path;
     if(pathinfo($file_id, PATHINFO_EXTENSION) == "php"){
