@@ -1,8 +1,8 @@
 <?php
 error_reporting(0);
 
-$token =1684765306 "7325393546:AAEKg5OiqOVNnWqOBPQ_SZr6iAjLkHit3ZE";
-$admin =  ;
+$token ="7325393546:AAEKg5OiqOVNnWqOBPQ_SZr6iAjLkHit3ZE";
+$admin =1684765306;
 define('API_KEY',$token);
 echo "setWebhook ~> <a href=\"https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."\">https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."</a>";
 function bot($method,$datas=[]){
